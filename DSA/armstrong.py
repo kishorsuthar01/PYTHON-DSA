@@ -1,4 +1,4 @@
-n=121
+n=153
 num=n
 total=0
 digite=len(str(n))
