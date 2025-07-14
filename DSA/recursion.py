@@ -25,7 +25,7 @@ def func(sum,i,n):
     func(sum+i,i+1,n)
 func(0,1,10)
 
-factorial 
+# factorial 
 
 def func(n):
     if n==1 or n==0:
