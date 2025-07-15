@@ -2,7 +2,7 @@
 
 arr=[1,2,4,5,6,7,8,9,23,4,55]
 
-def func(nums,left,right):
+def func(arr,left,right):
     if left>right:
         return
     arr[left],arr[right]=arr[right],arr[left]
