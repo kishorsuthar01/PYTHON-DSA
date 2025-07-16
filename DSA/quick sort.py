@@ -1,4 +1,4 @@
-
+arr=[5,8,4,3,6,2,7,9]
 def partition(arr,low,high):
     p=arr[low]
     i=low+1
@@ -22,7 +22,7 @@ def quick_sort(arr,low,high):
         quick_sort(arr,low,pivot-1)
         quick_sort(arr,pivot+1,high)
         
-arr=[5,8,4,3,6,2,7,9]
+
 quick_sort(arr,0,len(arr)-1)
 print(arr)
                 

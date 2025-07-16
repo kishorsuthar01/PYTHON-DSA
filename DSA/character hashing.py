@@ -1,7 +1,7 @@
 A="aabbrccdrdrabc"
 B=["a","b","c","d","r"]
 
-character=[0]*27
+character=[0]*26
 for i in A:
     ascii=ord(i)
     index=ascii-97
