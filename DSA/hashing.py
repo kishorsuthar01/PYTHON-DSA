@@ -11,6 +11,7 @@ for num in n:
         
         for num in m:
             if num<=0 or num<=10:
+                
                 print(f"{num} appears {hashing[num]} time")
             else:
                 print(f"{num} appears 0 time (out of range)")

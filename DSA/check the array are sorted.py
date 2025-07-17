@@ -1,4 +1,4 @@
-arr=[1,2,3,4,5,6,7,9,8,77,89]
+arr=[1,2,3,4,5,7,9,5,8,77,89]
 n=len(arr)
 def func(arr):
  for i in range(0,n-1):

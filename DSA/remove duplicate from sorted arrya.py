@@ -3,10 +3,10 @@
 num=[1,1,1,2,3,4,4,5,6,7,7,7,8,8,8,9,9]
 n=len(num)
 dictionary={}
-
+j=0
 for i in range(0,n):
     dictionary[num[i]]=0
-j=0
+
 for k in dictionary:
     num[j]=k
     j+=1
