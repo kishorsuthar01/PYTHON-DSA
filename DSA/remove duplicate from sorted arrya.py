@@ -27,6 +27,6 @@ def func(num):
             i+=1
             num[i],num[j]=num[j],num[i]
         j+=1
-    return i+1
+    return i+1          
 func(num)
 print(num)
