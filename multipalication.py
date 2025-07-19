@@ -1,5 +1,3 @@
 num=int(input("Enter the number here :"))
-i=1
-while i<=10:
-    print(num*i)
-    i+=1
+for i in range(1,11):
+    print(i*num)
