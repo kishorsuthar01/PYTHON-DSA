@@ -13,7 +13,7 @@ class Toyota(Car):
         self.name=name
        
 car1=Toyota("fortuner")
-print(car1.start())
+print(car1.name)
 
 
 # multi-level inheritance

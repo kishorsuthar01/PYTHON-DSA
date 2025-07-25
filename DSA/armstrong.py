@@ -5,7 +5,7 @@ digite=len(str(n))
 
 while num>0:
     last_d=num%10
-    total=total+(digite**last_d)
+    total+=last_d**digite
     num=num//10
 if(total==n):
     print("True")
